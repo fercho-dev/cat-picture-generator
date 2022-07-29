@@ -1,0 +1,44 @@
+body {
+  background-color: #94B49F;
+  color: #FCF8E8;
+}
+
+button {
+  display: block;
+  margin: 0 0 15px 15px;
+  background-color: #E4D192;
+  border-radius: 20px;
+}
+button:hover {
+  cursor: pointer;
+}
+img {
+  width: 250px;
+  height: 250px;
+  margin: 10px 20px;
+}
+.random-michis-container {
+  display: flex;
+}
+.image-container {
+  display: flex;
+}
+#favouriteMichis {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+}
+
+/* media queries */
+
+@media (max-width: 860px) {
+  .random-michis-container {
+    flex-direction: column-reverse;
+  }
+  .image-container {
+    flex-direction: column-reverse;
+  }
+  #favouriteMichis {
+    display: flex;
+    flex-direction: column;
+  }
+}
