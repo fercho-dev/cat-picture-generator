@@ -1,4 +1,4 @@
-API_KEY = "YOUR_API_KEY"
+API_KEY = "e6f5917f-beeb-4ef7-a9b6-7974ebbfe5b5"
 
 const API_URL_RANDOM = 'https://api.thecatapi.com/v1/images/search?limit=3';
 const API_URL_FAVOURITES = 'https://api.thecatapi.com/v1/favourites';
